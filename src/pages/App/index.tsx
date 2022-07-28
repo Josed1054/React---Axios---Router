@@ -12,9 +12,12 @@ export function App() {
   function setValue(e: any) {
     const { className } = e.target;
     setNumberOfEntries((prev) => {
-      if (className === "Add") {
+      if (
+        className === "Add" &&
+        prev <= Number(gobData.pagination.pageSize) - 10
+      ) {
         return prev + 10;
-      } else if (className === "Sub" && prev > 10) {
+      } else if (className === "Sub" && prev >= 20) {
         return prev - 10;
       }
       return prev;

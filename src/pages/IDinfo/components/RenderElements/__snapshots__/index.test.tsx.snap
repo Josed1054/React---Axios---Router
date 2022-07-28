@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checar si se render la info 1`] = `
+<div>
+  <p>
+    _id: 5952983359954a0adbf7ab09
+  </p>
+  <p>
+    cityid: MXAS0002
+  </p>
+  <p>
+    validdateutc: 20170627T140000Z
+  </p>
+  <p>
+    winddirectioncardinal: SSE
+  </p>
+  <p>
+    probabilityofprecip: 40
+  </p>
+  <p>
+    relativehumidity: 90
+  </p>
+  <p>
+    name: Aguascalientes
+  </p>
+  <p>
+    date_insert: 2017-06-27T17:36:43.084Z
+  </p>
+  <p>
+    longitude: -102.296
+  </p>
+  <p>
+    state: Aguascalientes
+  </p>
+  <p>
+    lastreporttime: 20170627T092449Z
+  </p>
+  <p>
+    skydescriptionlong: Tormentas dispersas
+  </p>
+  <p>
+    stateabbr: AGU
+  </p>
+  <p>
+    tempc: 17
+  </p>
+  <p>
+    latitude: 21.87982
+  </p>
+  <p>
+    iconcode: 96
+  </p>
+  <p>
+    windspeedkm: 6
+  </p>
+</div>
+`;

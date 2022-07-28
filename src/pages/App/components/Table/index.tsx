@@ -14,7 +14,7 @@ export function Table(props: { gobData: any; numberOfEntries: any }) {
           <th>probability of precip</th>
           <th>relative humidity</th>
           <th>Last report time</th>
-          <th>LLUEVE</th>
+          <th>LLUEVE?</th>
         </tr>
       </thead>
       <tbody>
